@@ -9,8 +9,9 @@ public class GermanTranslator implements Translator {
 	 */
 	public String translateNumber( int number ) {
 		// [ihr Source Code aus Übung 1-2]
-
-		return "null";
+		ArrayListGenerator al = new ArrayListGenerator();
+		al.creater();
+		return al.translateNumber(number);
 	}
 
 	/**

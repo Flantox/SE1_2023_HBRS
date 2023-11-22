@@ -1,5 +1,5 @@
 package org.hbrs.se1.ws23.uebung2;
-public interface Member {
+public interface Member{
 
     /**
      * Die ID ist über einen Konstruktor einer Klasse, welches dieses Interface implementiert,
@@ -8,4 +8,5 @@ public interface Member {
      */
     
     public Integer getID();
+    public String toString();
 }
